@@ -12,7 +12,7 @@ st.set_page_config(
 
 # Sidebar navigation
 st.sidebar.title("🔍 Navigation")
-page = st.sidebar.radio("Go to:", ["Dashboard", "Crime Map"])
+page = st.sidebar.radio("Go to pages:", ["Dashboard", "Crime Map"])
 
 # Display selected page
 if page == "Dashboard":

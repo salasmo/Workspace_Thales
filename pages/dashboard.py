@@ -6,7 +6,7 @@ def format_number(n):
     return f"{int(n):,}" if isinstance(n, (int, float)) else n
 
 def show():
-    st.title("📈 CDMX Crime Analytics Dashboard - Thales")
+    st.title("📈 CDMX Crime Analytics Dashboard - Thales V2.0")
     st.markdown("Insights and visual trends.")
 
     df = load_data()
