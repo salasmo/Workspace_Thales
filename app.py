@@ -5,7 +5,7 @@ from pages import dashboard, map
 # App configuration
 # ===============================
 st.set_page_config(
-    page_title="CDMX Crime Analytics Dashboard",
+    page_title="CDMX Crime Analytics Dashboard V2.0",
     layout="wide",
     page_icon="📊"
 )
